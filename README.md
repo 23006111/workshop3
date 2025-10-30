@@ -35,16 +35,20 @@ plt.title('Original')
 plt.imshow(cv2.cvtColor(resized, cv2.COLOR_BGR2RGB))
 plt.axis('off')
 ~~~
+
 <img width="678" height="477" alt="image" src="https://github.com/user-attachments/assets/9416aded-df66-4625-8299-42e7d42a95ca" />
+
 ~~~
 gray = cv2.cvtColor(resized, cv2.COLOR_BGR2GRAY)
 ~~~
+
 ~~~
 plt.subplot(1, 1, 1)
 plt.title('Grayscale Image')
 plt.imshow(gray, cmap='gray')
 plt.axis('off')
 ~~~
+
 <img width="742" height="463" alt="image" src="https://github.com/user-attachments/assets/ac252263-2c87-498f-aac1-b7a928d6766d" />
 
 ~~~
@@ -56,7 +60,9 @@ plt.title('Gaussian Blurred Image')
 plt.imshow(blur, cmap='gray')
 plt.axis('off')
 ~~~
+
 <img width="733" height="455" alt="image" src="https://github.com/user-attachments/assets/29fba0b1-08ae-45da-ad52-d932743e85d1" />
+
 ~~~
 edges = cv2.Canny(blur, 100, 200)
 ~~~
@@ -66,6 +72,7 @@ plt.title('Canny Edge Detection')
 plt.imshow(edges, cmap='gray')
 plt.axis('off')
 ~~~
+
 <img width="737" height="456" alt="image" src="https://github.com/user-attachments/assets/4b9096c6-3be1-4b5f-ae87-5eeafa290e2f" />
 
 
