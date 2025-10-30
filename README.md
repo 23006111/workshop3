@@ -70,5 +70,5 @@ plt.axis('off')
 
 
 
-# Result:
+# Result :
 The program successfully converts the original image into grayscale and detects edges using the Canny Edge Detection method.
