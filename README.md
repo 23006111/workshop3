@@ -1,4 +1,4 @@
-# workshop3
+# workshop3 
 
 # Aim:
 To implement Canny Edge Detection using Python and OpenCV to detect edges in an image.
